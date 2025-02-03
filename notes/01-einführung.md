@@ -105,3 +105,63 @@ Prüfungsfrage: Geben sie mir eine Instanz der Class Hund an. Heisst Rasse, Art,
 Name usw. Erklären sie an hand diesem Beispiel warum Vererbung praktisch ist?
 
 Datenquelle, Website lesen html Daten kann man angeben mit dem Schema der Class.
+
+3. Theoriestunde
+
+Zahlensysteme: Dezimal 162 = 100 + 60 + 2 = 1 _100 + 6_ 10 + 2* 1 = 1*10^2 + 6
+_10 ^1 + 2_ 10^0
+
+Beispiel Dezimalsystem: 257 =
+
+Wenn man die Zehnerzahl \*10 rechnet werden die Ziffern nach linksverschoben und
+wenn durch dann Verschiebung nach rechts.
+
+162 \*10 = 1620 162/10 =16,2
+
+Binärsystem : 0 und 1 sind die zwei Ziffern 0b 101= 1*2^2 + 0*2^1 + 1\*2^0 = 5
+
+Beispiel Binärsystem: 101110 --> 543210 1*2^5 + 0*2^4+ 1*2^3 + 1*2^2 + 1*2^1 +
+0*2^0 = 46
+
+ob 100 \*2 = 1000
+
+Man rechnet alles zusammen und da 1\*2^0 = 1 noch +1 also ist diese Zahl im
+Dezimalsystem =5 Die Basiszahl ist zwei da von 101 die Zahlen nummeriert werden
+also (2,1,0 = 1,0,1)
+
+1000= 1\*2^3 = 8
+
+Hexadezimalsystem= 1(1)F(0)= 1*16^2 + F*16^0 = 1*16^1+ 15*16^0 = 16+15
+
+Beispiel Hexadezimalsystem: 16 ist die Basiszahl
+
+Multiplikation der Basiszahl = Verschiebung nach links 1 Bit ist eine
+Speicherzelle 0 und 1
+
+a Hexadezimal: 61 Binär: 01100001 Dezimal: 097 A Hexadezimal: 41 Binär:01000001
+Dezimal:065
+
+a hat in allen Systemen einen grösseren Wert als A.
+
+Prüfungsfrage: Geben Sie ein kleines Objekt im JSON-Format ein. Was können Sie
+jeweils in den verschiedenen Formaten beobachten? (er gibt einen Code-Block, was
+für ein Dateiformat(JSON, Java, html,Svg, CSS, etc.) hat es?) mit Ascii ablesen
+können.
+
+Mit einem Bit kann man die Zahlen 0 bis 200 darstellen Hexadezimalsystem kann
+man genau 2 stellen die geben ein Bit an
+
+Verschlüsselung: Daten an nur einen Ort schicken, mit Verschlüsslungverfahren.
+Kann man ver-/ und entschlüsseln. Binäreebene, entweder oder, XOr operation.
+
+Schlüssel und verschlüsselter Text z.B QSQ und wir müssen die Nachricht
+erkennen. Binär dargestellt und man schaut sich dann von beiden diesen Code an
+und gibt 0 für gleich an und 1 für ungleich. Man schaut den Binärcode von dem
+Schlüssel und dem verschlüsselten Wort an und findet so den Code für den
+eigentlichen Text an. Man kann auch mit eigentlichem Text und verschlüsselten
+Text den Schlüssel herausfindne und mit Schlüssel und eigentlichen Text den
+verschlüsselten Code herausfinden.
+
+Beispiel: abc in binär (01100001 01100010 01100011) = eigentlicher Text 012 in
+binär (00110000 00110001 00110010) =Schlüssel QSQ in binär (01010001
+01010011 01010001) = verschlüsselter Text

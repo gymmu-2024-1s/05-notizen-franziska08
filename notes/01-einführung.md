@@ -165,3 +165,14 @@ verschlüsselten Code herausfinden.
 Beispiel: abc in binär (01100001 01100010 01100011) = eigentlicher Text 012 in
 binär (00110000 00110001 00110010) =Schlüssel QSQ in binär (01010001
 01010011 01010001) = verschlüsselter Text
+
+4. Theoriestunde
+
+Bites ist der 0 oder 1 Wert, 1 Bit sind 8 dieser Bites grösste mögliche Zahl mit
+1 Bit = 1111 1111 --> 255 (Hexadezimalsystem)
+
+#ff00ff = Hexwerk, FF= R otanteil, 00=G rünanteil, FF= B lauanteil, FF= A pha -
+Wert Bitmap, 4 Bites die einen Pixel ergeben. Der Alpha- Wer sagt, wie die
+Transparent es sein soll.
+
+#00ff00 #0000ff #ff0000 #af00ff #000000 #ffffff #ffff00 #ffaf00
